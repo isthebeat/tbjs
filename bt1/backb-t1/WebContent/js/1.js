@@ -5,7 +5,7 @@
   var ListView = Backbone.View.extend({
     el: $('body'), // attaches `this.el` to an existing element.
 
-
+    // initialize
 
     initialize: function(){
       _.bindAll(this, 'render'); // fixes loss of context for 'this' within methods
