@@ -13,7 +13,7 @@
        this.render(); // not all views are self-rendering. This one is.
     },
 
-    // render 3 b2
+    // render 3 b2 c1
     
     render: function(){
       $(this.el).append("<ul> <li>hello world</li> </ul>");
